@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg" style="background-color: #e6ccff;">
+<nav class="navbar navbar-expand-lg" style="background-color:rgb(182, 70, 210);">
     <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="{{ route('dashboard') }}">
             🌸 Floricultura System

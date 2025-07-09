@@ -60,6 +60,10 @@
                         <td colspan="5">Nenhuma venda registrada.</td>
                     </tr>
                 @endforelse
+
+                <a href="{{ route(auth()->user()->tipo === 'admin' ? 'dashboard' : (auth()->user()->tipo === 'funcionario' ? 'dashboard-funcionario' : 'dashboard-entregador')) }}" class="btn btn-secondary mb-3">
+                                Voltar
+                                 </a>  
             </tbody>
         </table>
     </div>

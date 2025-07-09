@@ -60,6 +60,8 @@
 
             <button type="submit" class="btn btn-primary">Atualizar Produto</button>
             <a href="{{ route('produtos.index') }}" class="btn btn-secondary">Cancelar</a>
+
+            
         </form>
     </div>
 </x-app-layout>

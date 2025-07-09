@@ -53,7 +53,7 @@
             </div>
 
             <button type="submit" class="btn btn-success">Salvar Produto</button>
-            <a href="{{ route('produtos.index') }}" class="btn btn-secondary">Cancelar</a>
+            <a href="{{ route('produtos.index') }}" class="btn btn-secondary">Cancelar</a>         
         </form>
     </div>
 </x-app-layout>
